@@ -1,0 +1,135 @@
+body {
+  background-color: slate;
+}
+
+.smallCircle {
+  background-color: white;
+  height: 225px;
+  width: 225px;
+  border-radius: 100%;
+  position: relative;
+  top: 125px;
+  left: 125px;
+  z-index: 1;
+}
+
+.smallCircleContents{
+  position: relative;
+  left: 50px;
+  top: 50px;
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+}
+
+.title{
+  font-size: 52px;
+  margin: auto;
+}
+
+.large_circle {
+  background: black;
+  width: 475px;
+  height: 475px;
+  border-radius: 100%;
+  border: solid 2px black;
+}
+
+.buttons{
+  position: relative;
+  top: -225px;
+}
+
+.button {
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    border: 6em solid;
+}
+
+#green {
+    position: relative;
+    top: 14px;
+    left: 13px;
+    border-color: green;
+    border-bottom: none;
+    border-right: none;
+    border-top-left-radius: 100%;
+    cursor: pointer;
+}
+
+#red {
+  position: relative;
+    top: 14px;
+    left: 16px;
+  border-color: red;
+    border-bottom: none;
+    border-left: none;
+    border-top-right-radius: 100%;
+    cursor: pointer;
+}
+
+#yellow {
+  position: relative;
+    top: 16px;
+    left: 13px;
+    border-color: yellow;
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 100%;
+    cursor: pointer;
+}
+
+#blue {
+  position: relative;
+    top: 16px;
+    left: 16px;
+    border-color: blue;
+    border-top: none;
+    border-left: none;
+    border-bottom-right-radius: 100%;
+    cursor: pointer;
+}
+
+
+.lightSwitch {
+height: 18px;
+width: 75px;
+cursor: pointer;
+}
+
+.lightSwitch .which {
+position: absolute;
+width: 31px;
+height: 20px;
+background-color: gray;
+}
+
+.lightSwitch .which.off{
+  left: 25px;
+}
+
+.lightSwitch .which.on {
+  left: 0px;
+  width: 23px;
+}
+
+
+.strict {
+  display: inline-block;
+}
+
+.LED {
+  border-radius: 100%;
+  height: 10px;
+  width: 10px;
+  border: solid 2px black;
+  cursor: pointer;
+}
+
+.LED.on {
+  background-color: red;
+}
+
+.LED.off {
+  background-color: black;
+}

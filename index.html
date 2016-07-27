@@ -1,0 +1,48 @@
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Teko:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+
+  <div class="large_circle">
+    <div class="smallCircle">
+      <div class="smallCircleContents">
+        <span class="title">Simon</span>
+        <div class="lightSwitch">
+            <div class="which off">
+            </div>
+              <span class="on">ON</span>
+              <span class="off">OFF</span>
+          </div>
+          <div>Turn : <span id="turn"></span></div>
+          <div class="strict">Strict Mode</div>
+          <div class="strict LED off"></div>
+      </div>
+  </div>
+    
+  <div class="buttons">
+      <div class="button" id="green">
+        <audio id="greenSound">
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></source>
+        </audio>
+      </div>
+      <div class="button" id="red">
+        <audio id="redSound">
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></source>
+        </audio>
+      </div>
+      <div class="button" id="yellow">
+        <audio id="yellowSound">
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></source>
+        </audio>
+      </div>
+      <div class="button" id="blue">
+        <audio id="blueSound">
+          <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></source>
+        </audio>
+      </div>
+  </div>
+
+  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
