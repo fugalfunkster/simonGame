@@ -1,0 +1,9 @@
+* Simon Game
+
+** Description
+Though I now loathe the infernal beeping, this Simon game was good practice at evented programming.
+To keep it interesting, I implemented a basic event loop and used a custom event emitter and listener to handle I/O in an orderly fashion.
+
+** View Project
+
+https://github.com/fugalfunkster/simonGame.git
